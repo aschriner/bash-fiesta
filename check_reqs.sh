@@ -3,6 +3,7 @@
 # when reorganizing the lead-api project from one main
 # module to 3 main modules
 
+# co is alias for checkout
 git co refactor_rebased
 # top level reqs
 cat requirements.txt > reqs.txt
@@ -17,6 +18,7 @@ cat data_build/requirements-dev.txt >> reqs.txt
 
 sort reqs.txt > reqs-sorted.txt
 
+# cm is alias for checkout master
 git cm
 cat requirements.txt > reqs-master.txt
 cat requirements-dev.txt >> reqs-master.txt
