@@ -1,10 +1,11 @@
-echo "set -e is off right now"
+echo "-e flag is off right now"
 blergface moogtown i am not a command
 this will error
 crash
 crash
 burn
 fire
+echo "Notice how all of those commands ran?"
 
 set -e
 echo "Now set -e is on"
